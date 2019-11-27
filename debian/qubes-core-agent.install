@@ -7,6 +7,7 @@ etc/default/grub.d/30-qubes.cfg
 etc/fstab
 etc/needrestart/conf.d/50_qubes.conf
 etc/profile.d/qt_x11_no_mitshm.sh
+etc/qubes-bind-dirs.d/50_template.conf
 etc/qubes-rpc/qubes.ShowInTerminal
 etc/qubes-rpc/qubes.Backup
 etc/qubes-rpc/qubes.DetachPciDevice

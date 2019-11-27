@@ -650,6 +650,7 @@ rm -f %{name}-%{version}
 /usr/lib/qubes/init/setup-rw.sh
 /usr/lib/qubes/init/setup-rwdev.sh
 %dir /etc/qubes-bind-dirs.d
+%config(noreplace) /etc/qubes-bind-dirs.d/50_template.conf
 %dir /usr/lib/qubes-bind-dirs.d
 /usr/lib/qubes-bind-dirs.d/30_cron.conf
 /usr/share/applications/qubes-run-terminal.desktop

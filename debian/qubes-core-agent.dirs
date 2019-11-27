@@ -4,6 +4,7 @@ etc/qubes
 etc/qubes/autostart
 etc/qubes/suspend-post.d
 etc/qubes/suspend-pre.d
+etc/qubes-bind-dirs.d
 usr/lib/qubes-bind-dirs.d
 lib/modules
 var/lib/qubes
